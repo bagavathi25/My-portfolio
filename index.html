@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>My Portfolio</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" class="btn">DarkMode</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm Bagavathi</h2>
+      <p>I AM DATA ANALYST</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+ <!-- About Me Section -->
+  <section id="about" class="section">
+   <img src="data analytics.jpg.jpeg">
+    <h2>About Me</h2>
+    <p>Enthusiastic and detail-oriented recent graduate with a strong foundation in data analysis,statistics,and programming.<br>proficient in 
+      Python,SQL,Excel,with hands-on experience using data visualization tools like Tableau.I am a data analyst with a passion for transforming raw data into actionable insights.<br> With expertise in SQL, Python, and data visualization tools like Power BI and Tableau, I specialize in analyzing complex datasets to drive business decisions.<br> My experience includes working with large datasets, building dashboards, and applying statistical analysis to uncover trends. <br>I am always eager to learn new techniques and improve processes through data-driven solutions.<br>
+      </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+    <div class="skill-card">Technical skills:Python(Pandas,Numpy,Matplotlib),R</div>
+    <div class="skill-card">Databases:SQL,MYSQL</div> 
+    <div class="skill-card">Visualization Tools:Tableau,PowerBI</div>
+    <div class="skill-card">Spreadsheet Tools:Microsoft Excel(Pivot Tables,VLOOKUP)</div> 
+    <div class="skill-card">Other Tools:Jupyter Notebook,Google Analytics </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Project 1-Sales Analysis </h3>
+        <p>Built using Excel,SQL,python(pandas,scikit-learn),tableau,jupyter Notebook.
+            Analyzed sales data of a retail company to identify trends,seasonal impacts,and growth opportunities.
+            Built SQL queries to extract and manipulate data.
+            Created visualizations in python using Matplotlib and Seaborn to present key findings</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2-Customer Segmentation Analysis ( Tableau)</h3>
+        <p>Performed customer segmentation for a marketing campaign using clustering techniques in python. 
+            Visualized customer groups and insights using Tableau dashboards to assist stakeholders in decision making. </p>
+      </div>
+      <div class="project-card">
+        <h3>Project 3-Employee Attrition Prediction (Machine Learning) </h3>
+        <p>Built a predictive model using python (scikit-learn) to forecast employee attrition based on historical data. Achieved 
+            an accuracy of 85% and presented insights to improve employee retention strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bagavathi. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
